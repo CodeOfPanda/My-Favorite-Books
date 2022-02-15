@@ -9,6 +9,12 @@ export default function Books(props) {
             <h3 className="author">{props.b.author}</h3>
             <p className="published-date">{props.b.content.publishedDate}</p>
             <a className="goodreads-link" href={props.b.content.goodreads_url}>Goodreads</a>
+            {props.b.content.series.seriesTitle && <h4 className="series-title">{props.b.content.series.seriesTitle}</h4>}
+            <ul className="other-books-list">
+            {props.b.content.series.seriesTitle && props.b.content.series.other_books.map(b => (
+                <li className="other-book" key={b}>{b}</li>
+            ))}
+            </ul>
         </div>
     )
 }
