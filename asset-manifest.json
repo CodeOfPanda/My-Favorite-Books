@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/My-Favorite-Books/static/css/main.9b02aaaa.css",
+    "main.js": "/My-Favorite-Books/static/js/main.5da9bbbe.js",
+    "index.html": "/My-Favorite-Books/index.html",
+    "main.9b02aaaa.css.map": "/My-Favorite-Books/static/css/main.9b02aaaa.css.map",
+    "main.5da9bbbe.js.map": "/My-Favorite-Books/static/js/main.5da9bbbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b02aaaa.css",
+    "static/js/main.5da9bbbe.js"
+  ]
+}
