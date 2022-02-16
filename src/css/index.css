@@ -3,50 +3,107 @@
 }
 
 body {
+  background-color: #e5e5e5;
   font-family: "Karla", sans-serif;
   margin: 0;
 }
 
-main {
-  padding: 36px;
+.App {
+  position: absolute;
+  width: 600px;
+  max-height: auto;
+  margin-left: 35%;
+  background-color: #fcfcfc;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 600px;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  justify-content: center;
+
+  background: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navbar > h1 {
+  margin: 20px 0 0 0;
+  font-size: 20px;
+  font-weight: 300;
+  color: tan;
+}
+
+.nav-logo {
+  margin: 20px 5px 0 0;
+  font-size: 20px;
+  color: tan;
+}
+
+.books-container > div > a {
+  color: tan;
+  text-decoration: none;
+}
+
+.books-container > div > a:visited {
+  text-decoration: none;
+  color: tan;
 }
 
 .books-container {
+  display: flex;
+  flex-direction: row;
   padding: 0px;
-  margin-left: 30px;
+  margin: 130px 0 80px 60px;
   text-align: left;
 }
 
-.title {
-  margin: 0;
-  font-size: 23px;
+.img-container {
+  padding-top: 7px;
+  margin-right: 60px;
+}
+
+.cover-img {
+  width: 155px;
+  height: auto;
+}
+
+.title-link {
+  font-size: 28px;
   font-weight: 400;
+  letter-spacing: -1px;
 }
 
-.author,
-.series-title {
-  margin: 0;
-  font-size: 16px;
+.author {
+  margin: 3px 0 0 0;
+  font-size: 14px;
   font-weight: 400;
+  color: #9c9a9a;
 }
 
-.published-date,
-.goodreads-link {
-  margin: 0;
-  font-size: 10px;
+.published-date {
+  margin: 5px 0 15px 0;
+  font-size: 9px;
+  color: #9c9a9a;
 }
 
-.series-title,
+.series-link {
+  font-weight: 500;
+  font-size: 13px;
+}
+
 .other-books-list {
-  margin: 0;
-}
-
-.other-books-list {
+  font-size: 11px;
+  margin-top: 5px;
+  color: #9c9a9a;
   padding-left: 25px;
+  max-height: 50px;
 }
 
 .other-book {
-  font-size: 13px;
-  padding: 0;
   list-style-type: circle;
 }

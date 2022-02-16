@@ -11,7 +11,8 @@ const data = {
                     'seriesTitle': 'Codex Alera',
                     'other_books': ["Academ's Fury", "Cursor's Fury", "Capitain's Fury", "Princeps' Fury", "First Lord's Fury" ],
                     'series_url': "https://www.goodreads.com/series/45545-codex-alera"
-                }
+                },
+                'img': "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329104514l/29396.jpg"
             }
         },
         {
@@ -25,23 +26,25 @@ const data = {
                     'seriesTitle': 'Temeraire',
                     'other_books': ["Throne of Jade", "Black Powder War", "Empire of Ivory", "Victory of Eagles", "Tongues of Serpents", "Crucible of Gold", "Blood of Tyrants", "Leage of Dragons"],
                     'series_url': "https://www.goodreads.com/series/43272-temeraire"
-                }
+                },
+                'img': "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1376392909l/28876.jpg"
             } 
         },
-        {
-            'author': 'Hermann Hesse',
-            'content': {
-                'title': 'Siddhartha',
-                'genre': 'Classics',
-                'publishedDate': 'December 1 1981',
-                'goodreads_url': "https://www.goodreads.com/book/show/52036.Siddhartha",
-                'series': {
-                    'seriesTitle': '',
-                    'other_books': [],
-                    'series_url': ''
-                }
-            }
-        },
+        // {
+        //     'author': 'Hermann Hesse',
+        //     'content': {
+        //         'title': 'Siddhartha',
+        //         'genre': 'Classics',
+        //         'publishedDate': 'December 1 1981',
+        //         'goodreads_url': "https://www.goodreads.com/book/show/52036.Siddhartha",
+        //         'series': {
+        //             'seriesTitle': '',
+        //             'other_books': [],
+        //             'series_url': ''
+        //         },
+        //         'img': "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536543378l/444555._SY475_.jpg"
+        //     }
+        // },
         {
             'author': 'Robert Jordan',
             'content': {
@@ -53,7 +56,8 @@ const data = {
                     'seriesTitle': 'Wheel of Time',
                     'other_books': ["The Eye of the World", "The Great Hunt", "The Dragon Reborn", "The Shadow Rising", "The Fires of Heaven", "Lord of Chaos", "A Crown of Swords", "The Path of Daggers", "Winter's Heart", "Crossroads of Twilight", "Knife of Dreams", "The Gathering Storm", "Towers of Midnight", "A Memory of Light"],
                     'series_url': "https://www.goodreads.com/series/41526-the-wheel-of-time"
-                }
+                },
+                'img': "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311355164l/8892653.jpg"
             }
         },
         {
@@ -65,9 +69,10 @@ const data = {
                 'goodreads_url': "https://www.goodreads.com/book/show/7235533-the-way-of-kings?ac=1&from_search=true&qid=IlG1EcA1lq&rank=2",
                 'series': {
                     'seriesTitle': 'The Stormlight Archive',
-                    'other_books': ["Words of Radiance", "Oathbringer", "Rythm of War"],
+                    'other_books': ["Words of Radiance", "Oathbringer", "Rhythm of War"],
                     'series_url': "https://www.goodreads.com/series/49075-the-stormlight-archive"
-                }
+                },
+                'img': "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388184640l/7235533.jpg"
             }
         }
         
